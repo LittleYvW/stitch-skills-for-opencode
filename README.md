@@ -1,6 +1,6 @@
 # Stitch Design Skills
 
-A collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, and Cursor.
+A collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode.
 
 ## Quick Start
 
@@ -43,6 +43,18 @@ After adding the marketplace, install the plugins you need from the `Stitch Skil
 - `stitch-design`
 - `stitch-build`
 - `stitch-utilities`
+
+#### OpenCode
+
+Add to the `plugin` array in your `opencode.json`:
+
+```json
+{
+  "plugin": ["stitch-skills-opencode@git+https://github.com/LittleYvW/stitch-skills-for-opencode.git"]
+}
+```
+
+See [.opencode/INSTALL.md](.opencode/INSTALL.md) for detailed setup.
 
 #### Claude Code
 
