@@ -1,0 +1,10 @@
+{
+  "name": "stitch-skills-opencode",
+  "version": "1.0.0",
+  "description": "Stitch Skills adapted for OpenCode — design workflows for Google Stitch",
+  "type": "module",
+  "main": ".opencode/plugins/stitch-skills.js",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/LittleYvW/stitch-skills-for-opencode",
+  "keywords": ["opencode", "stitch", "design", "mcp", "skills", "agent-skills"]
+}
